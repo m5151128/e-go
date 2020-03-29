@@ -12,7 +12,7 @@ RUN curl -sL https://rpm.nodesource.com/setup_10.x | bash - \
   make \
   libpng-devel \
   cronie \
-  && yum install -y --enablerepo=remi,remi-php73 \
+  && yum install -y --enablerepo=remi,remi-php74 \
   php \
   php-opcache \
   php-mbstring \
